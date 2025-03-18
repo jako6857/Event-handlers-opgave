@@ -39,7 +39,7 @@ const diceButton = document.getElementById("rollDiceOne");
 diceButton.addEventListener("click", rollDiceOne);
 
 function rollDiceOne() {
-  let diceRoll = getRandomNumber(1, 6);
+  let diceRoll = getRandomNumber(1, 7);
   showResult(diceRoll, myDiceRes);
 }
 

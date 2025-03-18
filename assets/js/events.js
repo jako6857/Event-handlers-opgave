@@ -36,6 +36,13 @@ const diceButton = document.getElementById("rollDiceOne");
 
 // skriv din eventhandler kode her ---------------------------------------
 
+diceButton.addEventListener("click", rollDiceOne);
+
+function rollDiceOne() {
+  let diceRoll = getRandomNumber(1, 6);
+  showResult(diceRoll, myDiceRes);
+}
+
 //-------------------------------------------------------------------------
 
 /* opgave 3 key event */
